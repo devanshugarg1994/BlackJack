@@ -1,0 +1,10 @@
+{
+    "mainScene": {
+        "mainSceneContainer": {
+            "x": 0,
+            "y": 0,
+            "id": "mainSceneContainer",
+            "type": "container"
+        }
+    }
+}

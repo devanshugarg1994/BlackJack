@@ -1,0 +1,52 @@
+{
+    "helperText": {
+        "winPresentationContainer": {
+            "x": 0,
+            "y": 0,
+            "id": "winPresentationContainer",
+            "type": "container"
+        },
+        "winloseTxt": {
+            "x": 0,
+            "y": -40,
+            "w": 400,
+            "h": 100,
+            "id": "winloseTxt",
+            "text": "",
+            "type": "label",
+            "visible": true,
+            "alpha": 1,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "style": {
+                "fontFamily": "Arial",
+                "fontSize": 80,
+                "fill": "0xfada5e",
+                "align": "center",
+                "fontWeight": 100
+            },
+            "parent": "winPresentationContainer"
+        },
+        "userHelperTxt": {
+            "x": 0,
+            "y": -40,
+            "w": 400,
+            "h": 100,
+            "id": "userHelperTxt",
+            "text": "Please Bet At least 10 Erous \n to Start",
+            "type": "label",
+            "visible": true,
+            "alpha": 1,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "style": {
+                "fontFamily": "Arial",
+                "fontSize": 40,
+                "fill": "0xFF0000",
+                "align": "center",
+                "fontWeight": 100
+            },
+            "parent": "winPresentationContainer"
+        }
+    }
+}

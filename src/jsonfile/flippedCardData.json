@@ -1,0 +1,14 @@
+{
+    "flippedCardData": {
+        "flippedCardBasicData": {
+            "x": -46,
+            "y": -350,
+            "visible": true,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "type": "image",
+            "id": "flippedCardBasicData",
+            "image": "flippedCard"
+        }
+    }
+}

@@ -1,0 +1,174 @@
+{
+    "cardDeck": {
+        "cardDeckContainer": {
+            "x": 0,
+            "y": 0,
+            "id": "cardDeckContainer",
+            "type": "container"
+        },
+        "flippedCard": {
+            "x": -46,
+            "y": -350,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "type": "image",
+            "id": "flippedCard",
+            "image": "flippedCard",
+            "parent": "cardDeckContainer"
+        },
+        "playerText": {
+            "x": -500,
+            "y": -50,
+            "w": 400,
+            "h": 100,
+            "id": "playerText",
+            "text": "PLAYER",
+            "type": "label",
+            "visible": true,
+            "alpha": 1,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "style": {
+                "fontFamily": "Arial",
+                "fontSize": 50,
+                "fill": "0xfada5e",
+                "align": "center",
+                "fontWeight": 50
+            },
+            "parent": "cardDeckContainer"
+        },
+        "delearText": {
+            "x": 500,
+            "y": -50,
+            "w": 400,
+            "h": 100,
+            "id": "playerText",
+            "text": "DEALER",
+            "type": "label",
+            "visible": true,
+            "alpha": 1,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "style": {
+                "fontFamily": "Arial",
+                "fontSize": 50,
+                "fill": "0xfada5e",
+                "align": "center",
+                "fontWeight": 50
+            },
+            "parent": "cardDeckContainer"
+        },
+        "flippedCardContainer": {
+            "x": 0,
+            "y": 0,
+            "id": "flippedCardContainer",
+            "type": "container",
+            "parent": "cardDeckContainer"
+        },
+        "faceUpContainer": {
+            "x": 0,
+            "y": 0,
+            "id": "faceUpContainer",
+            "type": "container",
+            "parent": "cardDeckContainer"
+        },
+        "userScore": {
+            "x": -500,
+            "y": -180,
+            "id": "userScore",
+            "type": "container",
+            "parent": "faceUpContainer"
+        },
+        "userHasTxt": {
+            "x": 0,
+            "y": 0,
+            "w": 400,
+            "h": 100,
+            "id": "userHasTxt",
+            "text": "User Has: ",
+            "type": "label",
+            "visible": true,
+            "alpha": 1,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "style": {
+                "fontFamily": "Arial",
+                "fontSize": 30,
+                "fill": "0xfada5e",
+                "align": "center",
+                "fontWeight": 100
+            },
+            "parent": "userScore"
+        },
+        "userScoreValue": {
+            "x": 100,
+            "y": 0,
+            "w": 400,
+            "h": 100,
+            "id": "userScoreValue",
+            "text": "0",
+            "type": "label",
+            "visible": true,
+            "alpha": 1,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "style": {
+                "fontFamily": "Arial",
+                "fontSize": 30,
+                "fill": "0xfada5e",
+                "align": "center",
+                "fontWeight": 100
+            },
+            "parent": "userScore"
+        },
+        "dealerScore": {
+            "x": 500,
+            "y": -180,
+            "id": "dealerScore",
+            "type": "container",
+            "parent": "faceUpContainer"
+        },
+        "dealerrHasTxt": {
+            "x": 0,
+            "y": 0,
+            "w": 400,
+            "h": 100,
+            "id": "dealerrHasTxt",
+            "text": "Dealer Has: ",
+            "type": "label",
+            "visible": true,
+            "alpha": 1,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "style": {
+                "fontFamily": "Arial",
+                "fontSize": 30,
+                "fill": "0xfada5e",
+                "align": "center",
+                "fontWeight": 100
+            },
+            "parent": "dealerScore"
+        },
+        "dealerScoreValue": {
+            "x": 100,
+            "y": 0,
+            "w": 400,
+            "h": 100,
+            "id": "dealerScoreValue",
+            "text": "0",
+            "type": "label",
+            "visible": true,
+            "alpha": 1,
+            "anchorX": 0.5,
+            "anchorY": 0.5,
+            "style": {
+                "fontFamily": "Arial",
+                "fontSize": 30,
+                "fill": "0xfada5e",
+                "align": "center",
+                "fontWeight": 100
+            },
+            "parent": "dealerScore"
+        }
+    }
+}

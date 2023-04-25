@@ -1,0 +1,23 @@
+{
+    "preLoadresources": [
+        "../jsonfile/performance.json",
+        "../jsonfile/mainScene.json",
+
+
+        "../jsonfile/gameMeter.json",
+        "../jsonfile/cardDeck.json",
+        "../jsonfile/cardshow.json",
+        "../jsonfile/flippedCardData.json",
+        "../jsonfile/helperText.json",
+        "../jsonfile/buttonPannel.json",
+
+        "../images/buttons/dealBtn.png",
+        "../images/coins/fiveHundredBet.png",
+        "../images/coins/hundredBet.png",
+        "../images/coins/oneBet.png",
+        "../images/coins/tenBet.png",
+        "../images/coins/thousandBet.png",
+        "../images/gamePlay/flippedCard.png"
+
+    ]
+}
